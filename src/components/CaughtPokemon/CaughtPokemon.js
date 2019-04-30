@@ -6,6 +6,19 @@ class CaughtPokemon extends Component {
     this.state = {
       caughtPokemon: 0
     };
+    console.log("constructor")
+  }
+  
+  componentDidMount(){
+    console.log('componentDidMount')
+  }
+  
+  componentDidUpdate(){
+    console.log('componentDidUpdate')
+  }
+  
+  componentWillUnmount(){
+    console.log('componentWillUnmount')
   }
   catchPokemon = () => {
     this.setState(previousState => {

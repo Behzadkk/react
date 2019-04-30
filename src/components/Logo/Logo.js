@@ -8,6 +8,7 @@ class Logo extends Component {
         <img
           onClick={this.props.handleClick}
           src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
+          alt = "pokemon"
         />
       </header>
     );
